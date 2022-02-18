@@ -13,20 +13,20 @@
       {
         "title": "PeeP",
         "startDate": "2022",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "My capstone for my fellowship at General Assembly, PeeP is a full-stack application where users can create a profile, post text, images, and see others posts",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
         ],
-        "url": "",
+        "url": "https://peeep.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
+            "class": "devicon-react-plain",
             "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-django-plain",
+            "name": "Django"
           },
           {
             "class": "devicon-csharp-plain",
@@ -81,38 +81,16 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Refresco Beverages",
+        "title": "CI Engineer",
+        "years": "6.2019 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Continuous Improvement"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Lean Six Sigma"
         ]
       }
+
     ]
   }
