@@ -39,8 +39,9 @@
         "startDate": "2021",
         "description": "Full-stack group project utulizing React, Node, Express, and MogoDB. At tooly, users can list their powertools online for rent, users can also reserve the tools listed when available.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/tooly/tooly-homepage.png",
+          "images/portfolio/tooly/tooly-listing.png",
+          "images/portfolio/tooly/tooly-reserve.png"
         ],
         "url": "https://toooly.netlify.app/",
         "technologies": [
@@ -63,26 +64,18 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Tower of Hanoi",
+        "startDate": "2021",
+        "description": "My first project as a software developer, Tower of Hanoi is a browser based game built using vanila javascript",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/tower-of-hanoi/home.png"
+
         ],
-        "url": "https://github.com",
+        "url": "https://mbrockus.github.io/Tower-of-Hanoi/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
           }
         ]
       }

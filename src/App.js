@@ -30,23 +30,23 @@ class App extends Component {
   }
 
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
+    var pickedLangIconId = window.$primaryLanguageIconId;
+      // oppositeLangIconId === window.$primaryLanguageIconId
+      //   ? window.$secondaryLanguageIconId
+      //   : window.$primaryLanguageIconId;
+    // document
+    //   .getElementById(oppositeLangIconId)
+    //   .removeAttribute("filter", "brightness(40%)");
     document
       .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+      .setAttribute("filter", "brightness(100%)");
   }
 
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
+      window.$primaryLanguage
+      // window.$secondaryLanguageIconId
     );
   }
 
@@ -109,12 +109,12 @@ class App extends Component {
             }
             style={{ display: "inline" }}
           >
-            <span
+            {/* <span
               className="iconify language-icon"
               data-icon="twemoji-flag-for-flag-poland"
               data-inline="false"
               id={window.$secondaryLanguageIconId}
-            ></span>
+            ></span> */}
           </div>
         </div>
         <About
