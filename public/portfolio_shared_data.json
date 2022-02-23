@@ -12,6 +12,11 @@
           "name": "linkedin",
           "url": "https://www.linkedin.com/in/matthew-brockus-17ab0a159/",
           "class": "fab fa-linkedin"
+        },
+        {
+          "name": "resume",
+          "url": "https://drive.google.com/file/d/1EPqHvWLffAcROxfuQoNIHT12zWoaar5p/view",
+          "class": "fab fa-readme"
         }
       ],
       "image": "mbProfile.png"
